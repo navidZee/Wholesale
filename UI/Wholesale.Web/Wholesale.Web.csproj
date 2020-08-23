@@ -4,6 +4,20 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Management\Data\" />
+    <Folder Include="Areas\Management\Models\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Wholesale.Application\Wholesale.Application.csproj" />
+    <ProjectReference Include="..\..\Core\Wholesale.Domain\Wholesale.Domain.csproj" />
+    <ProjectReference Include="..\..\Core\Wholesale.Infrastructure\Wholesale.Infrastructure.csproj" />
+  </ItemGroup>
 
 </Project>

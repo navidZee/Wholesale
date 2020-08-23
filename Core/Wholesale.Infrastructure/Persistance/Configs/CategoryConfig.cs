@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Wholesale.Domain.PRT;
+using Wholesale.Domain.Entities.PRT;
 
 namespace Wholesale.Infrastructure.Persistance.Configs
 {
