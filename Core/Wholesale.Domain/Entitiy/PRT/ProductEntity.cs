@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 using Wholesale.Domain.Common.Base;
 
 namespace Wholesale.Domain.Entities.PRT
@@ -15,6 +16,6 @@ namespace Wholesale.Domain.Entities.PRT
 
         [ForeignKey("Category_Id")]
         public CategoryEntity Category { get; set; }
-        public int Category_Id { get; set; }
+        public Guid Category_Id { get; set; }
     }
 }

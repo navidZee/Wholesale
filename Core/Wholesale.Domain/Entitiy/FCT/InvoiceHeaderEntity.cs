@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using Wholesale.Domain.Common.Base;
 using Wholesale.Domain.Entities.SEC;
-using Wholesale.Domain.Enum.FCT;
+using Wholesale.Domain.Enums.FCT;
 
 namespace Wholesale.Domain.Entities.FCT
 {

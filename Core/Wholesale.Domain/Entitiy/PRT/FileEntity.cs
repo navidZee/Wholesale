@@ -1,5 +1,5 @@
 ﻿using Wholesale.Domain.Common.Base;
-using Wholesale.Domain.Enum.OTH;
+using Wholesale.Domain.Enums.OTH;
 
 namespace Wholesale.Domain.Entities.PRT
 {

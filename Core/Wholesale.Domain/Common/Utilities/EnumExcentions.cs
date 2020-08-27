@@ -17,7 +17,7 @@ namespace Wholesale.Domain.Common.Utilities
         }
 
         public static IEnumerable<T> GetEnumFlags<T>(this T input) where T : struct
-        {
+        { 
             if (!typeof(T).IsEnum)
                 throw new NotSupportedException();
 

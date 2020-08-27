@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel;
-namespace Wholesale.Domain.Enum.FCT
+namespace Wholesale.Domain.Enums.FCT
 {
     public enum RequestLevel
     {
