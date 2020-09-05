@@ -1,11 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\..\Core\Wholesale.Application\Wholesale.Application.csproj" />
+    <ProjectReference Include="..\..\Core\Wholesale.Domain\Wholesale.Domain.csproj" />
+    <ProjectReference Include="..\..\Core\Wholesale.Infrastructure\Wholesale.Infrastructure.csproj" />
+    <PackageReference Include="Telegram.Bot" Version="15.5.1" />
   </ItemGroup>
 
 
